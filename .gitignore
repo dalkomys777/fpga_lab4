@@ -9,3 +9,11 @@
 Thumbs.db
 
 # reports와 evidence는 제출 자료이므로 Git에서 관리한다.
+
+*_작성전백업.hwpx
+
+# Keep editable pre-lab reports local until final upload.
+reports/pre/*.hwpx
+
+# Keep editable pre-lab reports local until final upload.
+reports/pre/*.hwpx
