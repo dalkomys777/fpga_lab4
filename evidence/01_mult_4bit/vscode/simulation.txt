@@ -1,0 +1,4 @@
+circuit=01_mult_4bit
+simulator=Icarus Verilog
+result=PASS multiplier: 256 input pairs
+wave_sha256=0f9d1dcf4628de44c0ba1f86b87b204d8f7205139a9a2715e73b695ad56a93e6

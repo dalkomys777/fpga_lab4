@@ -1,0 +1,123 @@
+{
+  "folders": [
+    {
+      "name": "FPGA LAB4",
+      "path": "."
+    },
+    {
+      "name": "01_mult_4bit",
+      "path": "circuits/01_mult_4bit"
+    },
+    {
+      "name": "02_bcd_to_binary",
+      "path": "circuits/02_bcd_to_binary"
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "files.associations": {
+      "*.v": "verilog"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "hudson-river-trading.vscode-slang",
+      "lramseyer.vaporview"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "01 Multiplier - Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:01_mult_4bit}"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "02 Multiplier - Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:01_mult_4bit}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "03 BCD - Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:02_bcd_to_binary}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "04 BCD - Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:02_bcd_to_binary}"
+        },
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      }
+    ]
+  }
+}

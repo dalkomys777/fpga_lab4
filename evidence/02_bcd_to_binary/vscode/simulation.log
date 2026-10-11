@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS BCD: 100 valid, 156 invalid
+C:\Users\young\Documents\fpga_lab4\circuits\02_bcd_to_binary\sim\tb_design.v:57: $finish called at 306000 (1ps)

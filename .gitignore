@@ -1,0 +1,11 @@
+**/build/
+**/vivado/
+**/__pycache__/
+*.pyc
+**/.Xil/
+*.jou
+*.str
+.DS_Store
+Thumbs.db
+
+# reports와 evidence는 제출 자료이므로 Git에서 관리한다.

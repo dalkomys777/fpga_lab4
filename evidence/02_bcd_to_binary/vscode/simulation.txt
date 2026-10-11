@@ -1,0 +1,4 @@
+circuit=02_bcd_to_binary
+simulator=Icarus Verilog
+result=PASS BCD: 100 valid, 156 invalid
+wave_sha256=926afc53e8c4b90e9b16b7ff8b374fbde508969eecef0404b06bd506f34e13d9
