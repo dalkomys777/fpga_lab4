@@ -17,3 +17,11 @@ reports/pre/*.hwpx
 
 # Keep editable pre-lab reports local until final upload.
 reports/pre/*.hwpx
+# Vivado generated project files
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
