@@ -10,10 +10,11 @@
 
 ## FPGA 회로
 
-- `circuits/01_mult_4bit`: 4비트 무부호 곱셈기
-- `circuits/02_bcd_to_binary`: BCD→이진수 변환기
+- `circuits/01_mult_4bit`: 4비트 무부호 곱셈기 ([Vivado constraints XDC](circuits/01_mult_4bit/constraints/lab4_mult_4bit.xdc))
+- `circuits/02_bcd_to_binary`: BCD→이진수 변환기 ([Vivado constraints XDC](circuits/02_bcd_to_binary/constraints/lab4_bcd_to_binary.xdc))
 
 각 회로의 `src`에는 설계 코드, `sim`에는 self-checking 테스트벤치가 있습니다.
+각 회로의 보드 핀 제약은 회로별 `constraints/*.xdc`에 있습니다. XDC는 VCD 기능 시뮬레이션에는 사용하지 않지만 Vivado 합성·구현·비트스트림 생성에는 필요합니다.
 시뮬레이션 VCD·로그·보고서용 이미지는 `evidence`에 보관합니다.
 한글 보고서는 최종 제출 전까지 `reports/pre`에서 로컬로 관리하며 Git 커밋에서는 제외합니다.
 
@@ -34,4 +35,3 @@
 ## 제출 저장소
 
 https://github.com/dalkomys777/fpga_lab4
-

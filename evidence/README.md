@@ -20,3 +20,10 @@
 - `simulation.log`, `simulation.txt`: 실행 기록
 
 한글 보고서 파일은 최종 제출 시점까지 로컬에서 관리하며 이 저장소의 일반 커밋에는 포함하지 않습니다.
+
+## Vivado 보드 핀 제약
+
+- [4비트 곱셈기 XDC](../circuits/01_mult_4bit/constraints/lab4_mult_4bit.xdc)
+- [BCD→이진수 변환기 XDC](../circuits/02_bcd_to_binary/constraints/lab4_bcd_to_binary.xdc)
+
+XDC는 VCD 기능 시뮬레이션에는 사용하지 않으며 Vivado 합성·구현·비트스트림 생성과 실제 보드 시연에 사용합니다.
