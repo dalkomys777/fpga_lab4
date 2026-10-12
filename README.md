@@ -15,7 +15,7 @@
 
 각 회로의 `src`에는 설계 코드, `sim`에는 self-checking 테스트벤치가 있습니다.
 시뮬레이션 VCD·로그·보고서용 이미지는 `evidence`에 보관합니다.
-예비보고서는 `reports/pre`에 있습니다.
+한글 보고서는 최종 제출 전까지 `reports/pre`에서 로컬로 관리하며 Git 커밋에서는 제외합니다.
 
 ## VS Code 시뮬레이션
 
@@ -34,3 +34,4 @@
 ## 제출 저장소
 
 https://github.com/dalkomys777/fpga_lab4
+
