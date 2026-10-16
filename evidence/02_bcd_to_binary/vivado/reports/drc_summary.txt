@@ -1,0 +1,7 @@
+LAB4 routed DRC summary — bcd_conv
+Tool: Vivado 2026.1 (win64)
+Command: report_drc -file bcd_conv_drc_routed.rpt
+Running DRC with 2 threads
+DRC finished with 0 Errors
+Related violations: <none>
+Result: PASS

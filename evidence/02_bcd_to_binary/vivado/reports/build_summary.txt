@@ -1,0 +1,12 @@
+LAB4 Vivado implementation summary — BCD-to-binary converter
+Tool: Vivado 2026.1 (win64), Device: xc7s75fgga484-1
+Top design: bcd_conv
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+synth_design completed successfully
+Implementation routed checkpoint generated successfully
+DRC finished with 0 Errors
+Generate Bitstream complete
+Bitgen Completed Successfully
+write_bitstream completed successfully
+Bitstream: artifacts/bitstreams/bcd_conv.bit
+SHA-256: AB3C02C3361D695383934739DB61286F0BB495BB1CBDB81037AF400FF2A1FF6A

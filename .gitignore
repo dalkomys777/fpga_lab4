@@ -9,14 +9,12 @@
 Thumbs.db
 
 # reports와 evidence는 제출 자료이므로 Git에서 관리한다.
-
 *_작성전백업.hwpx
 
-# Keep editable pre-lab reports local until final upload.
+# 편집 가능한 원본/결과 HWPX는 로컬에 두고 PDF만 제출한다.
 reports/pre/*.hwpx
+reports/post/*.hwpx
 
-# Keep editable pre-lab reports local until final upload.
-reports/pre/*.hwpx
 # Vivado generated project files
 *.xpr
 *.cache/
@@ -25,3 +23,7 @@ reports/pre/*.hwpx
 *.runs/
 *.sim/
 *.gen/
+
+# evidence 아래의 선별된 Vivado 캡처·로그·보고서는 제출 증빙이다.
+!evidence/**/vivado/
+!evidence/**/vivado/**

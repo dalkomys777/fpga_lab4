@@ -1,0 +1,7 @@
+LAB4 timing interpretation — mult_4bit
+Design state: Routed
+Circuit class: pure combinational logic (no clock/register)
+WNS = inf, WHS = inf, TNS = 0.000 ns, THS = 0.000 ns
+Failing endpoints = 0
+Vivado message: There are no user specified timing constraints.
+Interpretation: clock-based setup/hold timing is not applicable to this design.

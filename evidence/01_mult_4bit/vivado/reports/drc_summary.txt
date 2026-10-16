@@ -1,0 +1,7 @@
+LAB4 routed DRC summary — mult_4bit
+Tool: Vivado 2026.1 (win64)
+Command: report_drc -file mult_4bit_drc_routed.rpt
+Running DRC with 2 threads
+DRC finished with 0 Errors
+Related violations: <none>
+Result: PASS

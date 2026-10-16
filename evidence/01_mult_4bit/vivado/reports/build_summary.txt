@@ -1,0 +1,12 @@
+LAB4 Vivado implementation summary — 4-bit unsigned multiplier
+Tool: Vivado 2026.1 (win64), Device: xc7s75fgga484-1
+Top design: mult_4bit
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+synth_design completed successfully
+Implementation routed checkpoint generated successfully
+DRC finished with 0 Errors
+Generate Bitstream complete
+Bitgen Completed Successfully
+write_bitstream completed successfully
+Bitstream: artifacts/bitstreams/mult_4bit.bit
+SHA-256: BECD8FA12C4E881496D16A0938007BDEBF8D3ED4179A2D2014CC4A306F2A0ADE
